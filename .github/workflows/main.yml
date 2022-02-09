@@ -24,7 +24,7 @@ jobs:
          git add bing_img.png
          git commit -m "update readme.md"
     - name: Push changes
-      uses:  makerlin1/makerlin1@master
+      uses:  makerlin1/makerlin1@main
       with:
          github_token: ${{ secrets.MY_GIT_TOKEN }}
          branch: main
